@@ -1,7 +1,7 @@
 # torch-pchip_interp
 Differentiable piecewise Hermite spline interpolation in pytorch
 
-Simple standalone file that allows for interpolation of general pytorch tensors on irregular 1d and 2d grids. In 2d, the data must be on a regular grid, but it is not necessary to have equidistant grids or to be using the same number of grid points in the first and second spatial dimension.
+Simple standalone file that allows for interpolation of general pytorch tensors on irregularly spaced 1d and 2d grids. In 2d, the data must be on a (N1,N2) grid, but it is not necessary to have equidistant grids or to be using the same number of grid points in the first and second spatial dimension.
 
 ### cubic_interp1d(x,y,xs): 
 Takes as input: 
